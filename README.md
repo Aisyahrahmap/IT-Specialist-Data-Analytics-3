@@ -25,7 +25,7 @@ import seaborn as sns
 ## Line Chart
 A line chart is a graph that represents information as a series of data points connected by a straight line. In line charts, each data point or marker is plotted and connected with a line or curve.
 
-Let's consider the apple and manggo yield (tons per hecater) in Kanto. Let's plot a line graph using this data and see how the yield od apples changes over time. We are going to both plot by using Matplotlib and Seaborn as follows:
+Let's consider the apple and manggo yield (tons per hecater) in Kanto. Let's plot a line graph using this data and see how the yield of apples and manggo changes over time. We are going to both plot by using Matplotlib and Seaborn as follows:
 
 `Using Matplotlib`
 
