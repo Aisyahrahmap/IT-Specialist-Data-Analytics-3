@@ -1,5 +1,5 @@
 # Data Visualization Using Python
-Python offers several plotting libraries, namely Matplotlib, Seaborn, and may other such data visualization packages with different features for cerating informative, customized, and appealing plots to present data in the most simple and effective way.
+Python offers several plotting libraries, namely Matplotlib, Seaborn, and may other such data visualization packages with different features for creating informative, customized, and appealing plots to present data in the most simple and effective way.
 
 ## Matplotlib and Seaborn
 Matplotlib and Seaborn are Python libraries that use for data visualization. They have inbuilt modules for plotting different graphs.
@@ -25,7 +25,7 @@ import seaborn as sns
 ## Line Chart
 A line chart is a graph that represents information as a series of data points connected by a straight line. In line charts, each data point or marker is plotted and connected with a line or curve.
 
-Let's consider the apple and manggo yield (tons per hecater) in Kanto. Let's plot a line graph using this data and see how the yield of apples and manggo changes over time. We are going to both plot by using Matplotlib and Seaborn as follows:
+Let's consider the apple and manggo yield (tons per hectare) in Kanto. Let's plot a line graph using this data and see how the yield of apples and manggo changes over time. We are going to both plot by using Matplotlib and Seaborn as follows:
 
 `Using Matplotlib`
 
