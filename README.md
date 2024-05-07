@@ -39,5 +39,6 @@ plt.ylabel('Yield (tons per hectare)')
 plt.title('Crop Yields in Kanto')
 plt.legend(['Apples', 'Manggo'])
 ```
-![image](https://github.com/Aisyahrahmap/IT-Specialist-Data-Analytics-3/assets/166115307/f117d72e-77f9-40a4-a8a3-0c5fdb510cee)
+![image](https://github.com/Aisyahrahmap/IT-Specialist-Data-Analytics-3/assets/166115307/bc50f730-3665-4783-880e-beec89b9ef61)
+
 
