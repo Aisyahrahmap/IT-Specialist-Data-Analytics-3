@@ -42,3 +42,20 @@ plt.legend(['Apples', 'Manggo'])
 ![image](https://github.com/Aisyahrahmap/IT-Specialist-Data-Analytics-3/assets/166115307/bc50f730-3665-4783-880e-beec89b9ef61)
 
 
+# CRISP-DM
+CRISP-DM or CRoss Industry Standard Process for Data Mining is a process model with six phases that naturally describes the data science life cycle. It’s like a set of guardrails to help you plan, organize, and implement your data science (or machine learning) project.
+
+### 6 phase of the CRISP-DM
+**1. Business Understanding**  
+The Business Understanding phase focuses on understanding the objectives and requirements of the project. Aside from the third task, the three other tasks in this phase are foundational project management activities that are universal to most projects:  
+a. **Determine business objectives**: You should first “thoroughly understand, from a business perspective, what the customer really wants to accomplish.”  
+b. **Assess situation:** Determine resources availability, project requirements, assess risks and contingencies, and conduct a cost-benefit analysis. 
+c. **Determine data mining goals:** In addition to defining the business objectives, you should also define what success looks like from a technical data mining perspective.  
+d. **Produce project plan:** Select technologies and tools and define detailed plans for each project phase.
+
+**2. Data Understanding**
+Adding to the foundation of Business Understanding, it drives the focus to identify, collect, and analyze the data sets that can help you accomplish the project goals. This phase also has four tasks:  
+a. **Collect initial data:** Acquire the necessary data and (if necessary) load it into your analysis tool.
+b. **Describe data:** Examine the data and document its surface properties like data format, number of records, or field identities.
+c. **Explore data:** Dig deeper into the data. Query it, visualize it, and identify relationships among the data.
+d. **Verify data quality:** How clean/dirty is the data? Document any quality issues.
