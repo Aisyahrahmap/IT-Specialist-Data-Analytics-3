@@ -45,7 +45,8 @@ plt.legend(['Apples', 'Manggo'])
 # CRISP-DM
 CRISP-DM or CRoss Industry Standard Process for Data Mining is a process model with six phases that naturally describes the data science life cycle. It’s like a set of guardrails to help you plan, organize, and implement your data science (or machine learning) project.
 
-### 6 phase of the CRISP-DM
+### 6 phase of the CRISP-DM:
+
 **1. Business Understanding**  
 The Business Understanding phase focuses on understanding the objectives and requirements of the project. Aside from the third task, the three other tasks in this phase are foundational project management activities that are universal to most projects:  
 a. **Determine business objectives**: You should first “thoroughly understand, from a business perspective, what the customer really wants to accomplish.”  
@@ -53,9 +54,38 @@ b. **Assess situation:** Determine resources availability, project requirements,
 c. **Determine data mining goals:** In addition to defining the business objectives, you should also define what success looks like from a technical data mining perspective.  
 d. **Produce project plan:** Select technologies and tools and define detailed plans for each project phase.
 
+
 **2. Data Understanding**
-Adding to the foundation of Business Understanding, it drives the focus to identify, collect, and analyze the data sets that can help you accomplish the project goals. This phase also has four tasks:  
-a. **Collect initial data:** Acquire the necessary data and (if necessary) load it into your analysis tool.
-b. **Describe data:** Examine the data and document its surface properties like data format, number of records, or field identities.
-c. **Explore data:** Dig deeper into the data. Query it, visualize it, and identify relationships among the data.
+Adding to the foundation of Business Understanding, it drives the focus to identify, collect, and analyze the data sets that can help you accomplish the project goals. This phase also has four tasks:   
+a. **Collect initial data:** Acquire the necessary data and (if necessary) load it into your analysis tool.  
+b. **Describe data:** Examine the data and document its surface properties like data format, number of records, or field identities.  
+c. **Explore data:** Dig deeper into the data. Query it, visualize it, and identify relationships among the data.  
 d. **Verify data quality:** How clean/dirty is the data? Document any quality issues.
+
+**3. Data Preparation**  
+This phase, which is often referred to as “data munging”, prepares the final data set(s) for modeling. It has five tasks:  
+a. **Select data:** Determine which data sets will be used and document reasons for inclusion/exclusion.  
+b. **Clean data:** Often this is the lengthiest task. Without it, you’ll likely fall victim to garbage-in, garbage-out. A common practice during this task is to correct, impute, or remove erroneous values.  
+c. **Construct data:** Derive new attributes that will be helpful. For example, derive someone’s body mass index from height and weight fields.  
+d. **Integrate data:** Create new data sets by combining data from multiple sources.  
+e. **Format data:** Re-format data as necessary. For example, you might convert string values that store numbers to numeric values so that you can perform mathematical operations.
+
+**4. Modeling**  
+What is widely regarded as data science’s most exciting work is also often the shortest phase of the project. Here you’ll likely build and assess various models based on several different modeling techniques. This phase has four tasks:  
+a. **Select modeling techniques:** Determine which algorithms to try (e.g. regression, neural net).  
+b. **Generate test design:** Pending your modeling approach, you might need to split the data into training, test, and validation sets.  
+c. **Build model:** As glamorous as this might sound, this might just be executing a few lines of code like “reg = LinearRegression().fit(X, y)”.  
+d. **Assess model:** Generally, multiple models are competing against each other, and the data scientist needs to interpret the model results based on domain knowledge, the pre-defined success criteria, and the test design.
+
+**5. Evaluation**  
+Whereas the Assess Model task of the Modeling phase focuses on technical model assessment, the Evaluation phase looks more broadly at which model best meets the business and what to do next. This phase has three tasks:  
+a. **Evaluate results:** Do the models meet the business success criteria? Which one(s) should we approve for the business?  
+b. **Review process**: Review the work accomplished. Was anything overlooked? Were all steps properly executed? Summarize findings and correct anything if needed.  
+c. **Determine next steps:** Based on the previous three tasks, determine whether to proceed to deployment, iterate further, or initiate new projects.
+
+**6. Deployment**  
+A model is not particularly useful unless the customer can access its results. The complexity of this phase varies widely. This final phase has four tasks:  
+a. **Plan deployment:** Develop and document a plan for deploying the model  
+b. **Plan monitoring and maintenance:** Develop a thorough monitoring and maintenance plan to avoid issues during the operational phase (or post-project phase) of a model  
+c. **Produce final report:** The project team documents a summary of the project which might include a final presentation of data mining results.  
+d. **Review project:** Conduct a project retrospective about what went well, what could have been better, and how to improve in the future.
