@@ -185,7 +185,7 @@ A model is not particularly useful unless the customer can access its results. T
     - Non-maleficence: avoid violence or harm to research participants
     - Distributive Justice: Research participants should be selected fairly. Therefore, the burdens and benefits of the research must be fair.
 
- 5. PCI DSS adalah singkatan dari Payment Card Industry Data Security Standard. Ini adalah serangkaian standar keamanan yang bertujuan untuk melindungi data pemegang kartu dan mengurangi risiko penipuan dan pencurian data.
+ 5. PCI DSS stands for Payment Card Industry Data Security Standard. It is a set of security standards that aim to protect cardholder data and reduce the risk of fraud and data theft.
 
  ### Describe best practices for responsible data handling
  1. Methods of handling PII
@@ -217,7 +217,7 @@ A model is not particularly useful unless the customer can access its results. T
 2. Human cognitive Bias
 Cognitive bias refers to the systematic errors in thinking that influence how we process information, perceive others, and make decisions. These biases can lead to irrational thoughts or judgments and are often based on our perceptions, memories, or individual and societal beliefs. An example of a cognitive bias is the availability heuristic. This bias occurs when individuals make judgments about the likelihood of events based on how easily they can recall examples from memory.
 
-3. Motivasional  Bias
+3. Motivational  Bias
 Motivational bias refers to the tendency for individuals to interpret information or make decisions in a way that aligns with their pre-existing motivations or desires. These motivations can be conscious or unconscious and may influence perception, judgment, and behavior. Someone who is strongly motivated to maintain a positive self-image might interpret feedback in a way that supports their self-esteem, while disregarding or minimizing criticism. Similarly, individuals may be motivated by financial incentives, social approval, or personal goals, leading them to exhibit biased behavior in pursuit of these motivations.
    
 4. Sampling  Bias
@@ -226,6 +226,7 @@ Sampling bias occurs when the sample used in a study or survey is not representa
    
 5. Selecting Visualizations/Data Representations to Avoid Bias
    Selecting visualizations and data representations to avoid bias involves choosing appropriate methods to accurately and transparently present data without distorting or misleading interpretations. This process includes considering the audience, using diverse visual formats, avoiding misleading visuals, providing contextual information, being transparent about data selection and processing, considering alternative representations, testing for bias, highlighting uncertainty, avoiding cherry-picking data, and promoting accessibility.
+
 
 # Data Analytics Journey 🌟
 
